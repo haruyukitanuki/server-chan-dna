@@ -7,11 +7,14 @@ The motivation to publish Server-chan's DNA is to increase transparency and unde
 I have provided two variants of Server-chan's DNA. 
 
 #### Main variant
+**Estimated input cost: 4,300+ tokens**
+
 Ideal for usage on harnesses that the public will interact with where guardrails are required to prevent abuse.
 
 #### Personal variant
-Ideal for personal usage like on Hermes Agent. Guardrail sections are removed (I'm sure you can trust yourself), to reduce system prompt token count and save on input costs.
+**Estimated input cost: 3,100+ tokens**
 
+Ideal for personal usage like on Hermes Agent. Guardrail sections are removed (I'm sure you can trust yourself), to reduce system prompt token count and save on input costs.
 
 ## Differences to actual Server-chan
 The system instruction published in this repository is not an exact copy of what Server-chan actually uses.
