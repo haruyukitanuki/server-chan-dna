@@ -1,4 +1,7 @@
 # Server-chan's DNA
+
+**English** | [日本語](./README.ja.md)
+
 System prompt used to power Server-chan, effectively being her DNA, instructing her how she should perform tasks and talk to the user.
 
 The motivation to publish Server-chan's DNA is to increase transparency and understanding of how she works.
