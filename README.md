@@ -59,6 +59,8 @@ Ideal for usage on agents that the public will interact with where guardrails ar
 
 Ideal for personal usage like on Hermes Agent. Guardrail sections are removed (I'm sure you can trust yourself), to reduce system prompt token count and save on input costs.
 
+*I actually use this for my own personal Hermes Agent that I use for research and programming, with some slight additions to suit my personal tastes.*
+
 ## Differences to actual Server-chan
 The system instruction published in this repository is not an exact copy of what Server-chan actually uses.
 
