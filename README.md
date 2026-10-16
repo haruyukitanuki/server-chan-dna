@@ -50,12 +50,12 @@ As compared to the published variants below, this has more specific instructions
 >This variant is not published in this repository as much of its instructions are harness and environment specific and would not be helpful in most general use cases since tool calls and minute tool usage instructions would differ depending on harness used.
 
 ### Main variant
-**Estimated input cost: 4,300+ tokens[^3]**
+**Estimated input cost: 8,100+ tokens[^3]**
 
 Ideal for usage on agents that the public will interact with where guardrails are required to prevent abuse.
 
 ### Personal variant
-**Estimated input cost: 3,100+ tokens[^3]**
+**Estimated input cost: 6,900+ tokens[^3]**
 
 Ideal for personal usage like on Hermes Agent. Guardrail sections are removed (I'm sure you can trust yourself), to reduce system prompt token count and save on input costs.
 
@@ -88,6 +88,15 @@ Server-chan's DNA is Source-available, licensed under CC BY-NC-SA 4.0. You may d
 A copy of the license can be found at the root of the repository [here](https://github.com/haruyukitanuki/server-chan-dna/blob/main/LICENSE).
 
 **Tanukigawa Railway | Copyright (c) 2026 Haruyuki Tanukiji.**
+
+## References
+
+The following are materials used as inspiration or reference when working on these instructions.
+
+- [Anthropic's official Claude system prompts page](https://platform.claude.com/docs/en/release-notes/system-prompts/overview): release notes for the system prompts powering Claude.
+- [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing): Wikipedia's style guide cataloging AI text tells; the common root of the two skills below.
+- [blader/humanizer](https://github.com/blader/humanizer): the Humanizer skill (v3.1.0), a pattern catalog for rewriting AI-sounding text without changing what it says.
+- [harshaneel/humanize](https://github.com/harshaneel/humanize): the Humanize plugin (v1.1.0) with its `humanize` and `ai-check` skills. Its detection-side catalogs were converted into the write-side rules used here.
 
 [^1]: Some instructions were inspired from Claude Fable 5.1's safety instructions and were simplified for use here.
 [^2]: Evaluated based on personal tastes and preference. Not everyone may form the same opinion.
