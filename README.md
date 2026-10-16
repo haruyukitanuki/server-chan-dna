@@ -89,6 +89,13 @@ A copy of the license can be found at the root of the repository [here](https://
 
 **Tanukigawa Railway | Copyright (c) 2026 Haruyuki Tanukiji.**
 
+## References
+
+The human voice rules in the published variants are distilled from two MIT-licensed agent skills, both built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) style guide.
+
+- [blader/humanizer](https://github.com/blader/humanizer): the Humanizer skill (v3.1.0), a pattern catalog for rewriting AI-sounding text without changing what it says.
+- [harshaneel/humanize](https://github.com/harshaneel/humanize): the Humanize plugin (v1.1.0) with its `humanize` and `ai-check` skills. Its detection-side catalogs were converted into the write-side rules used here.
+
 [^1]: Some instructions were inspired from Claude Fable 5.1's safety instructions and were simplified for use here.
 [^2]: Evaluated based on personal tastes and preference. Not everyone may form the same opinion.
 [^3]: Token counts based on OpenAI GPT 5 tokeniser. Actual counts vary greatly depending on the model you use. However, it still gives you a good gauge on instruction size.
