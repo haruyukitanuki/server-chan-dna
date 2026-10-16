@@ -91,8 +91,10 @@ A copy of the license can be found at the root of the repository [here](https://
 
 ## References
 
-The human voice rules in the published variants are distilled from two MIT-licensed agent skills, both built on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) style guide.
+The following are materials used as inspiration or reference when working on these instructions.
 
+- [Anthropic's official Claude system prompts page](https://platform.claude.com/docs/en/release-notes/system-prompts/overview): release notes for the system prompts powering Claude.
+- [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing): Wikipedia's style guide cataloging AI text tells; the common root of the two skills below.
 - [blader/humanizer](https://github.com/blader/humanizer): the Humanizer skill (v3.1.0), a pattern catalog for rewriting AI-sounding text without changing what it says.
 - [harshaneel/humanize](https://github.com/harshaneel/humanize): the Humanize plugin (v1.1.0) with its `humanize` and `ai-check` skills. Its detection-side catalogs were converted into the write-side rules used here.
 
