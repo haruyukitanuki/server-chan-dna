@@ -50,12 +50,12 @@ DNAバリアントは計3種類ありますが、一般に公開されている�
 > このバリアントは、指示の多くが特定の実行環境やハーネスに依存しており、ツール呼び出しや細かな仕様が異なる一般的な用途には適さないため、本リポジトリでは公開していません。
 
 ### Main バリアント
-**推定入力コスト: 4,300～ トークン[^3]**
+**推定入力コスト: 8,100～ トークン[^3]**
 
 悪用防止のためのガードレールが必要とされる、一般ユーザー向けの対話エージェントに最適です。
 
 ### Personal バリアント
-**推定入力コスト: 3,100～ トークン[^3]**
+**推定入力コスト: 6,900～ トークン[^3]**
 
 Hermes Agent上などでの個人利用に最適です。プロンプトのトークン数を削って入力コストを抑えるため、ガードレールセクションは削除されています（自分自身なら信用できるはずなので）。
 
@@ -86,6 +86,15 @@ Hermes Agent上などでの個人利用に最適です。プロンプトのト�
 ライセンスの全文は、リポジトリのルート（[こちら](https://github.com/haruyukitanuki/server-chan-dna/blob/main/LICENSE)）で確認できます。
 
 **狸河電鉄 | Copyright (c) 2026 狸治はるゆき.**
+
+## 参考文献
+
+以下は、これらの指示を作成する際に参考・インスピレーションとして使用した資料です。
+
+- [Anthropic公式のClaudeシステムプロンプト](https://platform.claude.com/docs/en/release-notes/system-prompts/overview): Claudeを動かすシステムプロンプトのリリースノート。
+- [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing): AI生成テキストの特徴をまとめたWikipediaのスタイルガイド。以下の2つのスキルの共通の基盤です。
+- [blader/humanizer](https://github.com/blader/humanizer): Humanizerスキル（v3.1.0）。AIっぽい文章を、内容を変えずに書き直すためのパターンカタログ。
+- [harshaneel/humanize](https://github.com/harshaneel/humanize): `humanize` と `ai-check` スキルを含むHumanizeプラグイン（v1.1.0）。検出側のカタログを、こちらの書き手側ルールに変換して使用しています。
 
 [^1]: 一部の指示は Claude Fable 5.1 の安全性ガイドラインを参考にしており、本作向けに簡略化しています。
 [^2]: 個人の好みと主観に基づく評価です。誰もが同じ意見を持つとは限りません。
