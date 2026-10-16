@@ -50,12 +50,12 @@ As compared to the published variants below, this has more specific instructions
 >This variant is not published in this repository as much of its instructions are harness and environment specific and would not be helpful in most general use cases since tool calls and minute tool usage instructions would differ depending on harness used.
 
 ### Main variant
-**Estimated input cost: 4,300+ tokens[^3]**
+**Estimated input cost: 8,100+ tokens[^3]**
 
 Ideal for usage on agents that the public will interact with where guardrails are required to prevent abuse.
 
 ### Personal variant
-**Estimated input cost: 3,100+ tokens[^3]**
+**Estimated input cost: 6,900+ tokens[^3]**
 
 Ideal for personal usage like on Hermes Agent. Guardrail sections are removed (I'm sure you can trust yourself), to reduce system prompt token count and save on input costs.
 
